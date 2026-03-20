@@ -1,3 +1,3 @@
-FROM frappe/erpnext-worker:version-14
+FROM frappe/erpnext:v14
 
 CMD ["bench", "start"]
